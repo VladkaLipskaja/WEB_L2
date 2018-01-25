@@ -1,0 +1,191 @@
+<?php
+echo '<html>
+<head>
+	<link href="style.css" rel="stylesheet">
+	<title>Tables</title>
+</head>
+<body>
+	<p>Let"s do some tables.</p>
+	<hr color="pink">'
+$a="1";
+if ($a==="1")
+ 
+echo '
+	<table> <caption>3.1</caption>
+		<tr>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+		</tr>
+		<tr>
+			<td colspan="7"></td>
+		</tr>
+		<tr>
+			<td rowspan="5"></td>
+			<td colspan="6"></td>
+		</tr>
+		<tr>
+			<td rowspan="4"></td>
+			<td colspan="5"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td colspan="4"></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+	<hr color="pink">'
+else if($a==="2") echo '
+	<table> <caption>3.2</caption>
+		<tr>
+			<td rowspan="8"></td>
+			<td colspan="6"></td>
+		<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="7"></td>
+			<td colspan="5"></td>
+		<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="6"></td>
+			<td colspan="4"></td>
+		<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="5"></td>
+			<td colspan="3"></td>
+		<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="4"></td>
+			<td colspan="2"></td>
+			<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td></td>
+		<td class="example2"></td>
+		</tr>
+		<tr> 
+			<td rowspan="2"></td>
+			<td class="example2"></td>
+		</tr>
+		<tr> 
+			<td class="example2"></td>
+		</tr>
+	</table>
+	<hr color="pink">'
+else if($a==="3") echo '
+	<table> <caption>3.3</caption>
+		<tr>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+			<td class="example1"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="1"></td>
+		</tr>
+		<tr>
+			<td colspan="1"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="1"></td>
+		</tr>
+		<tr>
+			<td colspan="1"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="1"></td>
+		</tr>
+		<tr>
+			<td colspan="1"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+	<hr color="pink">'
+else echo '
+	<table> <caption>3.4</caption>
+		<tr>
+			<td rowspan="3"></td>
+			<td></td>
+			<td rowspan="2"></td>
+			<td rowspan="3"></td>
+			<td></td>
+			<td rowspan="2"></td>
+			<td rowspan="3"></td>
+			<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td rowspan="3"></td>
+			<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td rowspan="3"></td>
+			<td class="example2"></td>  
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td rowspan="3"></td>
+			<td rowspan="3"></td>
+			<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td rowspan="3"></td>
+			<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td rowspan="3"></td>
+			<td class="example2"></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td rowspan="2"></td>
+			<td rowspan="2"></td>
+			<td class="example2"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td class="example2"></td>
+		</tr>
+	</table> 
+</body>
+</html> ';
+?>
